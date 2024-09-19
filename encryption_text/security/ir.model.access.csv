@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_plain_text,account.plain.text,model_plain_text,base.group_user,1,1,1,1
+access_encryption_key,account.encryption.key,model_encryption_key,base.group_user,1,1,1,1
+access_encryption_text,account.encryption.text,model_encryption_text,base.group_user,1,1,1,1
+access_decryption_text,account.decryption.text,model_decryption_text,base.group_user,1,1,1,1

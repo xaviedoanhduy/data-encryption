@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <menuitem
+        id="encrytion_root_menu"
+        name="Encryption"
+    />
+
+    <menuitem
+        id="plain_text_menu"
+        name="Plain Text"
+        action="action_plain_text"
+        parent="encrytion_root_menu"
+        sequence="1"
+    />
+
+</odoo>
