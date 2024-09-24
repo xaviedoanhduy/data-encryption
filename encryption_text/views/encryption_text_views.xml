@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_plain_text_form" model="ir.ui.view">
+        <field name="name">encryption.text.form.view</field>
+        <field name="model">encryption.text</field>
+        <field name="arch" type="xml">
+            <form string="Encryption Text">
+                <field name="key_id" invisible="1"/>
+                <header>
+                    <button
+                        name="button_decrypt"
+                        type="object"
+                        class="btn-primary"
+                        string="Decrypt"
+                        invisible="not key_id"
+                    />
+                </header>
+                <sheet>
+                    <group>
+                        <field name="title"/>
+                        <field name="content"/>
+                        <field name="decrypted_text_id" invisible="not decrypted_text_id"/>
+                        <field name="decrypted_text_content" invisible="not decrypted_text_id"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+</odoo>
