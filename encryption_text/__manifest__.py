@@ -14,6 +14,8 @@
     "data": [
         "security/ir.model.access.csv",
         "views/plain_text_views.xml",
+        "views/encryption_text_views.xml",
+        "views/decryption_text_views.xml",
         "views/menu_views.xml",    
     ],
     "license": "LGPL-3",

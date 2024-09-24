@@ -7,7 +7,7 @@ class PlainText(models.Model):
     _rec_name = "title"
 
     title = fields.Char(required=True)
-    content = fields.Text(required=True)
+    content = fields.Text(required=True, string="Plain Text Content")
     key_id = fields.Many2one(
         comodel_name="encryption.key", 
     )

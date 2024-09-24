@@ -45,15 +45,4 @@
         </field>
     </record>
 
-    <record id="action_plain_text" model="ir.actions.act_window">
-        <field name="name">Plain Text</field>
-        <field name="res_model">plain.text</field>
-        <field name="view_mode">tree,kanban,form</field>
-        <field name="help" type="html">
-            <p class="o_view_nocontent_smiling_face">
-              Add a new plain text
-            </p>
-        </field>
-    </record>
-
 </odoo>
